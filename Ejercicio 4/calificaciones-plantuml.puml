@@ -10,19 +10,7 @@
     Sistema -> Usuario: Pedir notas
     Usuario -> Sistema: Introducir notas
     Sistema -> Sistema: Calcular media
+    Sistema -> Sistema: Evaluar la nota (Alumno con talento/Con capacidad/Debe reorientarse)    
     Sistema -> Usuario: Mostrar media y comentario
-
-@enduml
-
-@startuml
-
-    start
-    :Introduce las 4 notas por separado;
-    :Calcula la suma de las notas;
-    :Calcula la media de las notas;
-    :Imprime la nota media de las 4 evaluaciones;
-    :Evalúa el resultado de la media;
-    :Imprime la evaluación del alumno;
-    stop
 
 @enduml
