@@ -1,0 +1,28 @@
+
+@startuml
+
+    title Ejemplo de diagrama de secuencia
+
+    participant Usuario
+    participant Sistema
+
+    Usuario -> Sistema: Solicitud de notas
+    Sistema -> Usuario: Pedir notas
+    Usuario -> Sistema: Introducir notas
+    Sistema -> Sistema: Calcular media
+    Sistema -> Usuario: Mostrar media y comentario
+
+@enduml
+
+@startuml
+
+    start
+    :Introduce las 4 notas por separado;
+    :Calcula la suma de las notas;
+    :Calcula la media de las notas;
+    :Imprime la nota media de las 4 evaluaciones;
+    :Evalúa el resultado de la media;
+    :Imprime la evaluación del alumno;
+    stop
+
+@enduml
