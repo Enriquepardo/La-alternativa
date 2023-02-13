@@ -33,18 +33,4 @@ entonces
 
 sino
     devolver(a,b,a+b,a*b)
-finsa
-
-
-    
-
-
-
-
-
-
-
-
-
-
-1.
+fin
